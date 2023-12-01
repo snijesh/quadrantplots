@@ -46,15 +46,7 @@ ggplot(iris2, aes(x = Petal.Length, y = Petal.Width, color = quadrant)) +
 
 
 ```R
+# Save the plot in desired format
 ggsave("qudrant_plot.png", width = 6, height = 6, dpi = 300)
 ```
 
-
-```R
-
-```
-
-
-```R
-
-```
